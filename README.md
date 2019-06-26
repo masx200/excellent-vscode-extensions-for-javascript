@@ -1,7 +1,7 @@
 # excellent-vscode-extensions-for-javascript
 excellent-vscode-extensions-for-javascript
 
-# 适合于javascript/html/css编程的vscode的优秀扩展推荐
+# 适合于javascript/html/css/vue/react编程的vscode的优秀扩展推荐
 
 名称: Beautify
 id: hookyqr.beautify
