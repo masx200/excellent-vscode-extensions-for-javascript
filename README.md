@@ -2,6 +2,19 @@
 
 excellent-vscode-extensions-for-javascript
 
+# vscode 的推荐设置
+
+设置 `settings.json`
+
+```json
+{
+  "workbench.iconTheme": "Material Color",
+  "workbench.colorTheme": "Material Color",
+  "editor.formatOnSave": true,
+  "editor.fontWeight": "bold"
+}
+```
+
 # 适合于 javascript/html/css/vue/react 编程的 vscode 的优秀扩展推荐
 
 名称: Beautify
