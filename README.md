@@ -15,6 +15,20 @@ excellent-vscode-extensions-for-javascript
 }
 ```
 
+# 同步vscode设置
+
+名称: Settings Sync
+
+id: shan.code-settings-sync
+
+说明: Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+
+版本: 3.3.1
+
+发布者: Shan Khan
+
+VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
+
 # 适合于 javascript/html/css/vue/react 编程的 vscode 的优秀扩展推荐
 
 名称: Beautify
