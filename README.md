@@ -27,7 +27,8 @@ module.exports = {
     es6: true,
     node: true,
     worker: true,
-    commonjs: true
+    commonjs: true,
+    amd: true
   },
   extends: "eslint:recommended",
   globals: {
@@ -43,6 +44,34 @@ module.exports = {
   },
   rules: {}
 };
+```
+
+设置`.eslintrc.json`
+
+```json
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "worker": true,
+    "commonjs": true,
+    "amd": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {}
+}
 ```
 
 # 同步 vscode 设置
