@@ -15,29 +15,37 @@ excellent-vscode-extensions-for-javascript
   "editor.wordWrap": "bounded"
 }
 ```
-# 开启eslint
+
+# 开启 eslint
+
 设置`.eslintrc.js`
+
 ```javascript
 module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true
-    },
-    "extends": "eslint:recommended",
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
-    "parserOptions": {
-        "ecmaVersion": 2018
-    },
-    "rules": {
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
+    worker: true,
+    commonjs: true
+  },
+  extends: "eslint:recommended",
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly"
+  },
+  parserOptions: {
+    ecmaVersion: 2019,
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true
     }
+  },
+  rules: {}
 };
 ```
 
-# 同步vscode设置
+# 同步 vscode 设置
 
 名称: Settings Sync
 
@@ -64,7 +72,6 @@ id: dbaeumer.vscode-eslint
 发布者: Dirk Baeumer
 
 VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-
 
 名称: Beautify
 
