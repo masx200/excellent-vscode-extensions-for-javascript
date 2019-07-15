@@ -11,7 +11,8 @@ excellent-vscode-extensions-for-javascript
   "workbench.iconTheme": "Material Color",
   "workbench.colorTheme": "Material Color",
   "editor.formatOnSave": true,
-  "editor.fontWeight": "bold"
+  "editor.fontWeight": "bold",
+  "editor.wordWrap": "bounded"
 }
 ```
 
@@ -30,6 +31,19 @@ id: shan.code-settings-sync
 VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 
 # 适合于 javascript/html/css/vue/react 编程的 vscode 的优秀扩展推荐
+
+名称: ESLint
+
+id: dbaeumer.vscode-eslint
+
+说明: Integrates ESLint JavaScript into VS Code.
+
+版本: 1.9.0
+
+发布者: Dirk Baeumer
+
+VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
 
 名称: Beautify
 
