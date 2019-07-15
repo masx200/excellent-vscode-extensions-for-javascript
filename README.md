@@ -15,6 +15,27 @@ excellent-vscode-extensions-for-javascript
   "editor.wordWrap": "bounded"
 }
 ```
+# 开启eslint
+设置`.eslintrc.js`
+```javascript
+module.exports = {
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+    }
+};
+```
 
 # 同步vscode设置
 
