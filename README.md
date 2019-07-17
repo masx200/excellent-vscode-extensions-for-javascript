@@ -2,7 +2,7 @@
 
 excellent-vscode-extensions-for-javascript
 
-适合于javascript/html/css/vue/react编程的vscode的优秀扩展推荐和vscode 的推荐设置
+适合于`javascript/html/css/vue/react`编程的 `vscode` 的优秀扩展推荐和 `vscode` 的推荐设置
 
 # vscode 的推荐设置
 
