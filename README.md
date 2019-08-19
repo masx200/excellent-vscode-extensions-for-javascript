@@ -1,6 +1,6 @@
 # excellent-vscode-extensions-for-javascript
 
-excellent-vscode-extensions-for-javascript
+https://github.com/masx200/excellent-vscode-extensions-for-javascript
 
 适合于`javascript/html/css/vue/react`编程的 `vscode` 的优秀扩展推荐和 `vscode` 的推荐设置
 
