@@ -1,6 +1,5 @@
-
 {
-"parser": "babel-eslint",
+  "parser": "babel-eslint",
   "env": {
     "browser": true,
     "es6": true,
@@ -9,10 +8,7 @@
     "commonjs": true,
     "amd": true
   },
-  "extends": [
-        "eslint:recommended",
-        "plugin:vue/essential"
-    ],
+  "extends": ["eslint:recommended", "plugin:vue/essential"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -25,8 +21,5 @@
     }
   },
   "rules": {},
-     
- "plugins": [
-        "vue"
-    ]
+  "plugins": ["vue"]
 }
