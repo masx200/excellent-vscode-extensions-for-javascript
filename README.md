@@ -20,7 +20,7 @@ https://github.com/masx200/excellent-vscode-extensions-for-javascript
 
 # 开启 eslint
 
-设置`.eslintrc.js`
+## 设置`.eslintrc.js`
 
 ```javascript
 module.exports = {
@@ -48,7 +48,7 @@ module.exports = {
 };
 ```
 
-设置`.eslintrc.json`
+## 设置`.eslintrc.json`
 
 ```json
 {
@@ -75,6 +75,13 @@ module.exports = {
   "rules": {}
 }
 ```
+## 适用于 `vue.js`的`ESlint`配置文件
+
+https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/vue.eslintrc.json
+
+## 适用于 `react.js`的`ESlint`配置文件
+
+https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/react.eslintrc.json
 
 # 同步 vscode 设置
 
