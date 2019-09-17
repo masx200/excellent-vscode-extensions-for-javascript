@@ -83,6 +83,17 @@ https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/maste
 
 https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/react.eslintrc.json
 
+
+## 适用于 `typescript`的`ESlint`配置文件
+
+
+https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/tsconfig.json
+
+https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/typescript.eslintrc.json
+
+https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/rollup.config.js
+
+
 # 同步 vscode 设置
 
 名称: Settings Sync
