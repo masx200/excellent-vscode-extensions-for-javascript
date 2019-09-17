@@ -2,7 +2,7 @@
 
 https://github.com/masx200/excellent-vscode-extensions-for-javascript
 
-适合于`javascript/html/css/vue/react`编程的 `vscode` 的优秀扩展推荐和 `vscode` 的推荐设置
+适合于`javascript/html/css/vue/react`编程的 `vscode` 的优秀扩展推荐和 `vscode` 的推荐设置,以及`eslint`配置文件
 
 # vscode 的推荐设置
 
