@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
+    "paths": {},
+    "declarationDir": "./dist",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowUnreachableCode": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "declaration": true,
     "noUnusedLocals": true,
     "module": "esnext",
     "target": "esnext",
@@ -7,18 +15,19 @@
     "removeComments": true,
     "pretty": true,
     "strict": true,
-    "outDir": "./src/",
+    "outDir": "./dist",
     "rootDir": "./",
-    "allowJs": true,
     "sourceMap": true,
     "strictNullChecks": true,
     "baseUrl": ".",
     "noFallthroughCasesInSwitch": true,
-    /*  "paths": {
-      "*": ["node_modules/*"]
-    }, */
-    "importHelpers": true
-  }
-  //"exclude": ["node_modules", "**/node_modules/*"]
-  //"include": ["src/**/*.ts"]
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true
+  },
+  "include": ["./src/*/*.ts", "./src/*.ts", "./src/**/*.ts"],
+  "exclude": []
 }
