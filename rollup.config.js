@@ -1,3 +1,6 @@
+
+import sourcemaps from "rollup-plugin-sourcemaps";
+
 import resolve from "rollup-plugin-node-resolve";
 import commonjs from "rollup-plugin-commonjs";
 import { terser } from "rollup-plugin-terser";
@@ -41,7 +44,7 @@ export default [
           comments: !1,
           beautify: true
         }
-      })
+      }),sourcemaps()
     ]
   },
   {
@@ -53,6 +56,6 @@ export default [
         sourcemap: true
       }
     ],
-    plugins: [resolve(), commonjs(), myterserplugin]
+    plugins: [resolve(), commonjs(), myterserplugin,sourcemaps()]
   }
 ];
