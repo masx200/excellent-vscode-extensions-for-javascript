@@ -94,6 +94,15 @@ https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/maste
 https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/rollup.config.js
 
 
+# 彻底解决 `yarn` 安装慢 `Building fresh packages`的问题
+
+```powershell
+yarn config set registry  https://registry.npm.taobao.org
+yarn config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
+ yarn config set phantomjs_cdnurl http://cnpmjs.org/downloads
+  yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/
+```
+
 # 同步 vscode 设置
 
 名称: Settings Sync
