@@ -101,6 +101,7 @@ yarn config set registry  https://registry.npm.taobao.org
 yarn config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
  yarn config set phantomjs_cdnurl http://cnpmjs.org/downloads
   yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/
+  yarn config set profiler_binary_host_mirror http://npm.taobao.org/mirrors/node-inspector/
 ```
 
 # 同步 vscode 设置
