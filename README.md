@@ -10,11 +10,11 @@ https://github.com/masx200/excellent-vscode-extensions-for-javascript
 
 ```json
 {
-  "workbench.iconTheme": "Material Color",
-  "workbench.colorTheme": "Material Color",
-  "editor.formatOnSave": true,
-  "editor.fontWeight": "bold",
-  "editor.wordWrap": "bounded"
+    "workbench.iconTheme": "Material Color",
+    "workbench.colorTheme": "Material Color",
+    "editor.formatOnSave": true,
+    "editor.fontWeight": "bold",
+    "editor.wordWrap": "bounded"
 }
 ```
 
@@ -24,27 +24,27 @@ https://github.com/masx200/excellent-vscode-extensions-for-javascript
 
 ```javascript
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    node: true,
-    worker: true,
-    commonjs: true,
-    amd: true
-  },
-  extends: "eslint:recommended",
-  globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly"
-  },
-  parserOptions: {
-    ecmaVersion: 2019,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true
-    }
-  },
-  rules: {}
+    env: {
+        browser: true,
+        es6: true,
+        node: true,
+        worker: true,
+        commonjs: true,
+        amd: true
+    },
+    extends: "eslint:recommended",
+    globals: {
+        Atomics: "readonly",
+        SharedArrayBuffer: "readonly"
+    },
+    parserOptions: {
+        ecmaVersion: 2019,
+        sourceType: "module",
+        ecmaFeatures: {
+            jsx: true
+        }
+    },
+    rules: {}
 };
 ```
 
@@ -52,29 +52,30 @@ module.exports = {
 
 ```json
 {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true,
-    "worker": true,
-    "commonjs": true,
-    "amd": true
-  },
-  "extends": "eslint:recommended",
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
-  "parserOptions": {
-    "ecmaVersion": 2019,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "rules": {}
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "worker": true,
+        "commonjs": true,
+        "amd": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {}
 }
 ```
+
 ## 适用于 `vue.js`的`ESlint`配置文件
 
 https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/vue.eslintrc.json
@@ -83,9 +84,7 @@ https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/maste
 
 https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/react.eslintrc.json
 
-
 ## 适用于 `typescript`的`ESlint`配置文件
-
 
 https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/tsconfig.json
 
@@ -93,16 +92,19 @@ https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/maste
 
 https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/rollup.config.js
 
-
 # 彻底解决 `yarn` 安装慢 `Building fresh packages`的问题
 
 ```powershell
 yarn config set registry  https://registry.npm.taobao.org
 yarn config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
- yarn config set phantomjs_cdnurl http://cnpmjs.org/downloads
-  yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/
-  yarn config set profiler_binary_host_mirror http://npm.taobao.org/mirrors/node-inspector/
+yarn config set phantomjs_cdnurl http://cnpmjs.org/downloads
+yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/
+yarn config set profiler_binary_host_mirror http://npm.taobao.org/mirrors/node-inspector/
 ```
+
+# 推荐的 rollup+typescript 配置文件
+
+https://github.com/masx200/excellent-vscode-extensions-for-javascript/blob/master/rollup.config.js
 
 # 同步 vscode 设置
 
