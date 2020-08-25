@@ -1,0 +1,66 @@
+{"files.associations": { "*.json": "jsonc" },
+    "editor.fontFamily": "Microsoft Yahei, Microsoft Yahei,Helvetica,Tahoma,Arial,PingFang SC,Hiragino Sans GB,Heiti SC,MicrosoftYaHei,WenQuanYi Micro Hei,sans-serif",
+    "editor.detectIndentation": false,
+    "window.zoomLevel": 0.5,
+    "terminal.integrated.rendererType": "dom",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.wordWrap": "bounded",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "GitHub Plus",
+    "[xml]": {
+        "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+    },
+
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "bold",
+    "terminal.integrated.fontFamily": "monospace",
+    "debug.console.fontFamily": "Microsoft Yahei, Microsoft Yahei,Helvetica,Tahoma,Arial,PingFang SC,Hiragino Sans GB,Heiti SC,MicrosoftYaHei,WenQuanYi Micro Hei,sans-serif",
+    "sync.gist": "bda1b390f919289c4b0802a72d87c2ea",
+    "sync.autoUpload": false,
+    "sync.autoDownload": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.implicitProjectConfig.checkJs": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "[markdown]": {},
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "files.autoSave": "afterDelay",
+    "prettier.tabWidth": 4,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "sync.removeExtensions": false,
+    "prettier.arrowParens": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.autoUpdateLanguageServer": false,
+    "python.formatting.provider": "black"
+}
